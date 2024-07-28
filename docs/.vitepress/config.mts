@@ -1,30 +1,21 @@
 import { defineConfig } from 'vitepress'
+import nav from './nav.mts'
+import sidebar from  './sidebar.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Home",
   description: "We always forget, so we write it down!",
+  srcDir: 'documents',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      {
-        text: 'Tools',
-        items: [
-          { text: 'PostMan', link: '/guide/postman/postman' }
-        ]
-      },
-      { text: 'develop', link: '/markdown-examples' }
-    ],
+    nav: nav,
+    sidebar: sidebar,
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan 943003797'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
