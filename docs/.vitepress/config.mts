@@ -12,7 +12,7 @@ export default defineConfig({
           { text: 'PostMan', link: '/document/postman/index' }
         ]
       },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Exampless', link: '/markdown-examples' }
     ],
 
     sidebar: [
