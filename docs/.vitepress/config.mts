@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Tools', link: '/',
+      { text: 'Tools',
         items: [
           { text: 'PostMan', link: '/document/postman/index' }
         ]
