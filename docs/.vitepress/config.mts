@@ -10,7 +10,7 @@ export default defineConfig({
       {
         text: 'Tools',
         items: [
-          { text: 'PostMan', link: '/document/postman/index' }
+          { text: 'PostMan', link: '/guide/postman/postman' }
         ]
       },
       { text: 'develop', link: '/markdown-examples' }
