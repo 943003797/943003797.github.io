@@ -9,7 +9,7 @@ export default defineConfig({
   srcDir: 'documents',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: './theme/icon.svg',
+    logo: '/icon.svg',
     nav: nav,
     sidebar: sidebar,
 
