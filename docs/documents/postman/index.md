@@ -39,16 +39,16 @@
 
 #### {#huanjingpeizhi}
 
-![image-20240731165146385](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165146385.png)
+![image-20240731165146385](https://s2.loli.net/2024/07/31/sRZ9tqMhoPcfK8U.png)
 
 - ##### 全局变量
 
   全局变量在所有环境可调用，定义所有你想在任何环境里使用的变量，例如：登录ID
 
-  ![image-20240731165421825](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165421825.png)
+  ![image-20240731165421825](https://s2.loli.net/2024/07/31/eXMJmgfoYsPIA27.png)
 
 - ##### 环境变量
 
   在这里定义不同环境，特殊的变量：链接地址、鉴权信息
 
-  ![image-20240731165827771](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165827771.png)
+  ![image-20240731165827771](https://s2.loli.net/2024/07/31/KBioQgpZbxctGUF.png)
