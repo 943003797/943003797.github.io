@@ -35,8 +35,6 @@
 
 #### 环境配置{#peizhi}
 
-#### {#huanjingpeizhi}
-
 ![image-20240731165146385](https://s2.loli.net/2024/07/31/sRZ9tqMhoPcfK8U.png)
 
 - ##### 全局变量

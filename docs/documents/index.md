@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Knowledge Manual"
   text: "We always forget, so we write it down!"
-  tagline: My great project tagline
+  tagline: Good good study, day day up!
   actions:
     - theme: brand
       text: Markdown Examples
