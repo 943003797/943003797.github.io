@@ -3,7 +3,7 @@
 - [工作空间](#gongzuokongjian)
 - [API 请求](#apiqingqiu)
 - [API 集合](#apijihe)
-- [环境配置](#huanjingpeizhi)
+- [环境配置](#peizhi)
 - [脚本](#jiaoben)
 - [Postman Interceptor](#chajian)
 - [协作](#xiezuo)
@@ -33,7 +33,7 @@
 
 #### API集合{#apijihe}
 
-#### 环境配置{#huanjingpeizhi}
+#### 环境配置{#peizhi}
 
 #### {#huanjingpeizhi}
 
