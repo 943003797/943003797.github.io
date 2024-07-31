@@ -1,10 +1,11 @@
 ### 常用功能
 
 - [工作空间](#gongzuokongjian)
-- API 请求
-- API 集合
-- 环境配置
-- 脚本
+- [API 请求](#apiqingqiu)
+- [API 集合](#apijihe)
+- [环境配置](#huanjingpeizhi)
+- [脚本](#jiaoben)
+- [Postman Interceptor](#chajian)
 
 
 #### 工作空间（Workspaces）{#gongzuokongjian}
@@ -30,7 +31,24 @@
 4. 创建一个**Team**类型的工作空间，基础设置包括**简介**，Team内的**Comment**，**成员编辑**等
    ![image-20240729154336257](https://s2.loli.net/2024/07/29/QY6e1kwusmXVdpD.png)
 
-#### API请求
+#### API请求{#apiqingqiu}
 
-#### API集合
+#### API集合{#apijihe}
 
+#### 环境配置
+
+#### {#huanjingpeizhi}
+
+![image-20240731165146385](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165146385.png)
+
+- ##### 全局变量
+
+  全局变量在所有环境可调用，定义所有你想在任何环境里使用的变量，例如：登录ID
+
+  ![image-20240731165421825](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165421825.png)
+
+- ##### 环境变量
+
+  在这里定义不同环境，特殊的变量：链接地址、鉴权信息
+
+  ![image-20240731165827771](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240731165827771.png)
