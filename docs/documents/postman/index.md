@@ -23,7 +23,7 @@ lastUpdated: true
 
 1. 在Home页，选择Workspaces -> Create Workspace
 
-![image-20240801145337262](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801145337262.png)
+![image-20240801145337262](https://s2.loli.net/2024/08/01/tkX2QlYpPO3SfJR.png)
 
 2. 一般选择一个空的空间
 
@@ -50,7 +50,7 @@ lastUpdated: true
   - Authorization，Scripts，Variables将会作用于整个集合
   - Runs是记录了当前集合执行过的Runner
 
-#### ![image-20240801153301068](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801153301068.png)
+#### ![image-20240801153301068](https://s2.loli.net/2024/08/01/9a3fwb4m2ExTr6j.png)
 
 - **Runner**
   - 在集合中，可以对集合或某个文件夹开启一个Run，Run以特定顺序依次执行Run list接口
@@ -59,11 +59,11 @@ lastUpdated: true
     - **延迟**- 每个请求之间的间隔延迟（以毫秒为单位）。
     - **数据**-collection run 的数据。
 
-![image-20240801154221212](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801154221212.png)
+![image-20240801154221212](https://s2.loli.net/2024/08/01/LPESadMgiOJsIb2.png)
 
 - 执行结果
 
-![image-20240801161533609](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801161533609.png)
+![image-20240801161533609](https://s2.loli.net/2024/08/01/D7FUWwic3r6R1lZ.png)
 
 #### 环境配置{#peizhi}
 
