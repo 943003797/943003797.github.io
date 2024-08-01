@@ -122,43 +122,43 @@ lastUpdated: true
 
 - **浏览器插件市场，搜索安装**
 
-![image-20240801233751628](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801233751628.png)
+![image-20240801233751628](https://s2.loli.net/2024/08/02/B1Odg6ZkfCwIxby.png)
 
 - **功能1：抓包**
 
   - 启动捕获（可选请求类型，URL）
 
-  ![image-20240801234302011](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234302011.png)
+  ![image-20240801234302011](https://s2.loli.net/2024/08/02/Mvs4hyJn6ePpaIZ.png)
 
   - 触发需要抓取的请求，等待插件抓取，选择Stop
 
-  ![image-20240801234755323](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234755323.png)
+  ![image-20240801234755323](https://s2.loli.net/2024/08/02/I62zjvKXSa3gswB.png)
 
   - 提示打开Postman
 
-  ![image-20240801234934835](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234934835.png)
+  ![image-20240801234934835](https://s2.loli.net/2024/08/02/WzX6LcnE3qwFHlu.png)
 
   - 在Postman中查看抓取的请求，可选择保存请求到工作空间
 
-  ![image-20240801235048796](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801235048796.png)
+  ![image-20240801235048796](https://s2.loli.net/2024/08/02/cBV5KxAwYruUeqn.png)
 
 - **功能2：Cookie同步**
 
   - 如下抓取到的请求
 
-  ![image-20240801235309176](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801235309176.png)
+  ![image-20240801235309176](https://s2.loli.net/2024/08/02/HPz1oYdtxiFqRK5.png)
 
   - 打开Cookies，选择Sync Cookies，添加我们要做Cookie同步的域名，开启同步
 
-  ![image-20240802000143265](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000143265.png)
+  ![image-20240802000143265](https://s2.loli.net/2024/08/02/1DNCUrM7IQewhnS.png)
 
   - 打开插件，待同步域名已加入，选择Sync Cookies
 
-  ![image-20240802000247514](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000247514.png)
+  ![image-20240802000247514](https://s2.loli.net/2024/08/02/zA4mqyStrb8KudW.png)
 
   - 回到Postman，可以看到Cookies已同步到Postman
 
-  ![image-20240802000514958](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000514958.png)
+  ![image-20240802000514958](https://s2.loli.net/2024/08/02/kghj5w7aWGxfipq.png)
 
 #### 协作{#xiezuo}
 
