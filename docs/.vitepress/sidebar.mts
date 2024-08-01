@@ -1,12 +1,15 @@
 export default {
     '/postman/':[
         {
-            text: 'Postman 使用指南',
+            text: 'Postman Guide',
             items: [
-                { text: '基础UI', link: '/markdown-examples' },
-                { text: 'API分组', link: '/api-examples' },
-                { text: '环境配置', link: '/api-examples' },
-                { text: '脚本', link: '/api-examples' }
+                { text: '工作空间', link: '/postman/#gongzuokongjian' },
+                { text: 'API 请求', link: '/postman/#apiqingqiu' },
+                { text: 'API 集合', link: '/postman/#apijihe' },
+                { text: '环境配置', link: '/postman/#jiaoben' },
+                { text: '脚本', link: '/postman/#jiaoben' },
+                { text: 'Postman Interceptor', link: '/postman/#chajian' },
+                { text: '协作', link: '/#xiezuo' }
             ]
         }
     ]
