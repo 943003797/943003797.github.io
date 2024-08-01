@@ -23,7 +23,7 @@ lastUpdated: true
 
 1. 在Home页，选择Workspaces -> Create Workspace
 
-![image-20240801145337262](https://s2.loli.net/2024/08/01/tkX2QlYpPO3SfJR.png)
+![image-20240801161533609](https://s2.loli.net/2024/08/01/D7FUWwic3r6R1lZ.png)
 
 2. 一般选择一个空的空间
 
@@ -43,7 +43,7 @@ lastUpdated: true
 
    ![image-20240729154336257](https://s2.loli.net/2024/07/29/QY6e1kwusmXVdpD.png)
 
-#### API集合
+#### API集合{#apijihe}
 
 - **新建集合**
   - 可以配置该集合下的Authorization，Scripts，Variables，Runs
@@ -63,7 +63,7 @@ lastUpdated: true
 
 - 执行结果
 
-![image-20240801161533609](https://s2.loli.net/2024/08/01/D7FUWwic3r6R1lZ.png)
+![image-20240801145337262](https://s2.loli.net/2024/08/01/tkX2QlYpPO3SfJR.png)
 
 #### 环境配置{#peizhi}
 
@@ -117,6 +117,48 @@ lastUpdated: true
 
 
 ![image-20240731212505943](https://s2.loli.net/2024/07/31/OkbCELdg46Boj1l.png)
+
+#### Postman Interceptor{#chajian}
+
+- **浏览器插件市场，搜索安装**
+
+![image-20240801233751628](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801233751628.png)
+
+- **功能1：抓包**
+
+  - 启动捕获（可选请求类型，URL）
+
+  ![image-20240801234302011](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234302011.png)
+
+  - 触发需要抓取的请求，等待插件抓取，选择Stop
+
+  ![image-20240801234755323](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234755323.png)
+
+  - 提示打开Postman
+
+  ![image-20240801234934835](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801234934835.png)
+
+  - 在Postman中查看抓取的请求，可选择保存请求到工作空间
+
+  ![image-20240801235048796](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801235048796.png)
+
+- **功能2：Cookie同步**
+
+  - 如下抓取到的请求
+
+  ![image-20240801235309176](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240801235309176.png)
+
+  - 打开Cookies，选择Sync Cookies，添加我们要做Cookie同步的域名，开启同步
+
+  ![image-20240802000143265](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000143265.png)
+
+  - 打开插件，待同步域名已加入，选择Sync Cookies
+
+  ![image-20240802000247514](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000247514.png)
+
+  - 回到Postman，可以看到Cookies已同步到Postman
+
+  ![image-20240802000514958](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802000514958.png)
 
 #### 协作{#xiezuo}
 
