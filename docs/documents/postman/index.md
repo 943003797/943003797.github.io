@@ -62,13 +62,13 @@ lastUpdated: true
   - Initial load-初始模拟用户数
   - Select file-测试用请求数据
 
-  ![image-20240802103532675](https://s2.loli.net/2024/08/02/LVBN6GRxmdczj8W.png)
+  ![image-20240802104234494](https://s2.loli.net/2024/08/02/m7NgKaCitYywHGb.png)
 
   
 
   - 启动Run, 等待结果
 
-  ![image-20240802104234494](https://s2.loli.net/2024/08/02/m7NgKaCitYywHGb.png)
+  ![image-20240802103532675](https://s2.loli.net/2024/08/02/LVBN6GRxmdczj8W.png)
 
 
 
@@ -76,11 +76,14 @@ lastUpdated: true
 
 ![image-20240731165146385](https://s2.loli.net/2024/07/31/sRZ9tqMhoPcfK8U.png)
 
+
+
 - ##### 全局变量
 
   全局变量在所有环境可调用，定义所有你想在任何环境里使用的变量，例如：登录ID
 
-  ![image-20240731165421825](https://s2.loli.net/2024/07/31/eXMJmgfoYsPIA27.png)
+
+![image-20240731165421825](https://s2.loli.net/2024/07/31/eXMJmgfoYsPIA27.png)
 
 - ##### 环境变量
 
@@ -101,7 +104,7 @@ lastUpdated: true
   ![image-20240731211751138](https://s2.loli.net/2024/07/31/LvABNqJTwOGVEsY.png)
 
   例如正式开发环境等等
-  
+
   ![image-20240731213659453](https://s2.loli.net/2024/07/31/QDV6CdI9xEHzq1i.png)
 
 #### 脚本{#jiaoben}

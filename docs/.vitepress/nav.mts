@@ -1,10 +1,9 @@
 export default [
     {
-        text: 'Tools',
+        text: 'Docs',
         items: [
             { text: 'PostMan', link: '/postman', activeMatch: 'postman'}
         ],
-        activeMatch: 'Tools'
-    },
-    { text: 'develop', link: '/markdown-examples' }
+        activeMatch: 'Docs'
+    }
 ];
