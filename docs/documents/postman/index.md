@@ -93,7 +93,7 @@ lastUpdated: true
 
 - 变量引用
 
-  在需要的地方以**{{变量名}}**引用，例如：**{{HOST}}**
+  在需要的地方以{{变量名}} 引用，例如：{{HOST}}
 
   ![image-20240731212926237](https://s2.loli.net/2024/07/31/7mq2u39ECOUlySR.png)
 
