@@ -40,7 +40,7 @@ lastUpdated: true
 
 ![image-20240801154221212](https://s2.loli.net/2024/08/01/LPESadMgiOJsIb2.png)
 
-- **Runner**
+- **Runner-Functional**
   - 在集合中，可以对集合或某个文件夹开启一个Run，Run以特定顺序依次执行Run list接口
   - 主要配置：
     - **迭代次数**- collection run 的迭代次数。
@@ -52,6 +52,25 @@ lastUpdated: true
 - 执行结果
 
 ![image-20240801145337262](https://s2.loli.net/2024/08/01/tkX2QlYpPO3SfJR.png)
+
+- **Runner-Performance**
+
+  - 压力测试，选择Performance
+  - Load profile-负载曲线
+  - Virtual users-模拟峰值用户数
+  - Test duration-持续时间
+  - Initial load-初始模拟用户数
+  - Select file-测试用请求数据
+
+  ![image-20240802103532675](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802103532675.png)
+
+  
+
+  - 启动Run, 等待结果
+
+  ![image-20240802104234494](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802104234494.png)
+
+
 
 #### 环境配置{#peizhi}
 
@@ -113,13 +132,13 @@ lastUpdated: true
 
 
 
-- **功能1：抓包**
+- **功能1：请求捕获**
 
   - 启动捕获（可选请求类型，URL）
 
   ![image-20240801233751628](https://s2.loli.net/2024/08/02/B1Odg6ZkfCwIxby.png)
 
-  - 触发需要抓取的请求，等待插件抓取，选择Stop
+  - 触发需要捕获的请求，等待插件捕获，选择Stop
 
   ![image-20240801235048796](https://s2.loli.net/2024/08/02/cBV5KxAwYruUeqn.png)
 
@@ -127,13 +146,13 @@ lastUpdated: true
 
   ![image-20240801234755323](https://s2.loli.net/2024/08/02/I62zjvKXSa3gswB.png)
 
-  - 在Postman中查看抓取的请求，可选择保存请求到工作空间
+  - 在Postman中查看已捕获的请求，可选择保存请求到工作空间
 
   ![image-20240801234934835](https://s2.loli.net/2024/08/02/WzX6LcnE3qwFHlu.png)
 
 - **功能2：Cookie同步**
 
-  - 如下抓取到的请求
+  - 如下捕获到的请求
 
   ![image-20240802000143265](https://s2.loli.net/2024/08/02/1DNCUrM7IQewhnS.png)
 
