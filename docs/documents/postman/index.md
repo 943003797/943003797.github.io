@@ -7,18 +7,6 @@ next: false
 lastUpdated: true
 ---
 
-[//]: # (- [工作空间]&#40;#gongzuokongjian&#41;)
-
-[//]: # (- [API 集合]&#40;#apijihe&#41;)
-
-[//]: # (- [环境配置]&#40;#peizhi&#41;)
-
-[//]: # (- [脚本]&#40;#jiaoben&#41;)
-
-[//]: # (- [Postman Interceptor]&#40;#chajian&#41;)
-
-[//]: # (- [协作]&#40;#xiezuo&#41;)
-
 #### 工作空间（Workspaces）{#gongzuokongjian}
 
 1. 在Home页，选择Workspaces -> Create Workspace
@@ -50,7 +38,7 @@ lastUpdated: true
   - Authorization，Scripts，Variables将会作用于整个集合
   - Runs是记录了当前集合执行过的Runner
 
-#### ![image-20240801153301068](https://s2.loli.net/2024/08/01/9a3fwb4m2ExTr6j.png)
+![image-20240801154221212](https://s2.loli.net/2024/08/01/LPESadMgiOJsIb2.png)
 
 - **Runner**
   - 在集合中，可以对集合或某个文件夹开启一个Run，Run以特定顺序依次执行Run list接口
@@ -59,7 +47,7 @@ lastUpdated: true
     - **延迟**- 每个请求之间的间隔延迟（以毫秒为单位）。
     - **数据**-collection run 的数据。
 
-![image-20240801154221212](https://s2.loli.net/2024/08/01/LPESadMgiOJsIb2.png)
+![image-20240801153301068](https://s2.loli.net/2024/08/01/9a3fwb4m2ExTr6j.png)
 
 - 执行结果
 
@@ -91,11 +79,11 @@ lastUpdated: true
 
   可以在建立基础环境之后，例如**Local**，使用**Fork**建立分支环境
 
-  ![image-20240731213659453](https://s2.loli.net/2024/07/31/QDV6CdI9xEHzq1i.png)
+  ![image-20240731211751138](https://s2.loli.net/2024/07/31/LvABNqJTwOGVEsY.png)
 
   例如正式开发环境等等
   
-  ![image-20240731211751138](https://s2.loli.net/2024/07/31/LvABNqJTwOGVEsY.png)
+  ![image-20240731213659453](https://s2.loli.net/2024/07/31/QDV6CdI9xEHzq1i.png)
 
 #### 脚本{#jiaoben}
 
@@ -111,54 +99,57 @@ lastUpdated: true
 
 - 可以在单个请求里引入
 
-  ![image-20240731212244976](https://s2.loli.net/2024/07/31/aKqkD6C2r5NFjvM.png)
+![image-20240731212505943](https://s2.loli.net/2024/07/31/OkbCELdg46Boj1l.png)
 
 - 或者在集合中，应用到整个集合
 
-
-![image-20240731212505943](https://s2.loli.net/2024/07/31/OkbCELdg46Boj1l.png)
+![image-20240731212244976](https://s2.loli.net/2024/07/31/aKqkD6C2r5NFjvM.png)
 
 #### Postman Interceptor{#chajian}
 
 - **浏览器插件市场，搜索安装**
 
-![image-20240801233751628](https://s2.loli.net/2024/08/02/B1Odg6ZkfCwIxby.png)
+![image-20240801234302011](https://s2.loli.net/2024/08/02/Mvs4hyJn6ePpaIZ.png)
+
+
 
 - **功能1：抓包**
 
   - 启动捕获（可选请求类型，URL）
 
-  ![image-20240801234302011](https://s2.loli.net/2024/08/02/Mvs4hyJn6ePpaIZ.png)
+  ![image-20240801233751628](https://s2.loli.net/2024/08/02/B1Odg6ZkfCwIxby.png)
 
   - 触发需要抓取的请求，等待插件抓取，选择Stop
 
-  ![image-20240801234755323](https://s2.loli.net/2024/08/02/I62zjvKXSa3gswB.png)
+  ![image-20240801235048796](https://s2.loli.net/2024/08/02/cBV5KxAwYruUeqn.png)
 
   - 提示打开Postman
 
-  ![image-20240801234934835](https://s2.loli.net/2024/08/02/WzX6LcnE3qwFHlu.png)
+  ![image-20240801234755323](https://s2.loli.net/2024/08/02/I62zjvKXSa3gswB.png)
 
   - 在Postman中查看抓取的请求，可选择保存请求到工作空间
 
-  ![image-20240801235048796](https://s2.loli.net/2024/08/02/cBV5KxAwYruUeqn.png)
+  ![image-20240801234934835](https://s2.loli.net/2024/08/02/WzX6LcnE3qwFHlu.png)
 
 - **功能2：Cookie同步**
 
   - 如下抓取到的请求
 
-  ![image-20240801235309176](https://s2.loli.net/2024/08/02/HPz1oYdtxiFqRK5.png)
-
-  - 打开Cookies，选择Sync Cookies，添加我们要做Cookie同步的域名，开启同步
-
   ![image-20240802000143265](https://s2.loli.net/2024/08/02/1DNCUrM7IQewhnS.png)
 
-  - 打开插件，待同步域名已加入，选择Sync Cookies
+  - 打开Cookies，选择Sync Cookies，添加我们要做Cookie同步的域名
 
-  ![image-20240802000247514](https://s2.loli.net/2024/08/02/zA4mqyStrb8KudW.png)
+  ![image-20240801235309176](https://s2.loli.net/2024/08/02/HPz1oYdtxiFqRK5.png)
+
+  - 打开插件，可以看到待同步域名已加入，选择Sync Cookies
+
+  ![image-20240802000514958](https://s2.loli.net/2024/08/02/kghj5w7aWGxfipq.png)
+
+  
 
   - 回到Postman，可以看到Cookies已同步到Postman
 
-  ![image-20240802000514958](https://s2.loli.net/2024/08/02/kghj5w7aWGxfipq.png)
+  ![image-20240802000247514](https://s2.loli.net/2024/08/02/zA4mqyStrb8KudW.png)
 
 #### 协作{#xiezuo}
 
@@ -170,12 +161,14 @@ lastUpdated: true
 - 填写被邀请人邮箱，选择角色权限
 
 
-![image-20240731205048114](https://s2.loli.net/2024/07/31/YG1MI8Xz6BfRkxv.png)
+![image-20240731205916370](https://s2.loli.net/2024/07/31/UpG9kSFWYaXC86s.png)
 
 - 或着复制邀请链接
 
+![image-20240731205048114](https://s2.loli.net/2024/07/31/YG1MI8Xz6BfRkxv.png)
 
-![image-20240731205916370](https://s2.loli.net/2024/07/31/UpG9kSFWYaXC86s.png)
+
+
 
 - 打开链接，选择接受
 
