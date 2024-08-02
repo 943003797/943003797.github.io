@@ -62,13 +62,13 @@ lastUpdated: true
   - Initial load-初始模拟用户数
   - Select file-测试用请求数据
 
-  ![image-20240802103532675](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802103532675.png)
+  ![image-20240802103532675](https://s2.loli.net/2024/08/02/LVBN6GRxmdczj8W.png)
 
   
 
   - 启动Run, 等待结果
 
-  ![image-20240802104234494](C:\Users\Kinson\AppData\Roaming\Typora\typora-user-images\image-20240802104234494.png)
+  ![image-20240802104234494](https://s2.loli.net/2024/08/02/m7NgKaCitYywHGb.png)
 
 
 
