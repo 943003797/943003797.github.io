@@ -11,5 +11,13 @@ export default {
                 { text: '协作', link: '/postman/#xiezuo' }
             ]
         }
+    ],
+    '/english/':[
+        {
+            text: 'English manual',
+            items: [
+                { text: '关系词', link: '/english' }
+            ]
+        }
     ]
 };
