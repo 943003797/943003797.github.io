@@ -19,5 +19,13 @@ export default {
                 { text: '关系词', link: '/english' }
             ]
         }
+    ],
+    '/comfyui/':[
+        {
+            text: 'Install',
+            items: [
+                { text: 'Install', link: '/Install' }
+            ]
+        }
     ]
 };
