@@ -153,6 +153,4 @@ pip install -r requirements.txt
 - [ComfyUI 文档](https://github.com/comfyanonymous/ComfyUI/blob/master/README.md)
 - [ComfyUI 讨论区](https://github.com/comfyanonymous/ComfyUI/discussions)
 
-![ComfyUI 界面预览](https://s2.loli.net/2025/03/12/SQaFqrh5ALmIEnl.png)
-
 希望这份安装指南对你有所帮助！如有任何问题，可以在 GitHub 讨论区寻求帮助。
