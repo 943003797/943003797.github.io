@@ -7,5 +7,14 @@ export default [
             { text: 'ComfyUI', link: '/comfyui', activeMatch: 'comfyui' }
         ],
         activeMatch: 'Docs'
+    },
+    {
+        text: 'AIGC',
+        items: [
+            { text: 'LLM', link: '/aigc/llm', activeMatch: 'aigc/llm'},
+            { text: 'SD', link: '/aigc/sd', activeMatch: 'aigc/sd'},
+            { text: 'AI Agent', link: '/aigc/ai-agent', activeMatch: 'aigc/ai-agent'}
+        ],
+        activeMatch: 'AIGC'
     }
 ];

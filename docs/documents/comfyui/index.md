@@ -109,10 +109,16 @@ python main.py
 ### 模型加载失败
 
 确保模型文件放在正确的目录中：
-- Stable Diffusion 模型: `models/checkpoints/`
-- VAE 模型: `models/vae/`
-- LoRA 模型: `models/lora/`
-- 控制网络模型: `models/controlnet/`
+- Stable Diffusion 模型: `models/checkpoints/` - 存放基础的 Stable Diffusion 模型文件(.ckpt 或 .safetensors)
+- VAE 模型: `models/vae/` - 存放用于图像编码和解码的 VAE 模型
+- LoRA 模型: `models/lora/` - 存放用于微调的 LoRA 模型文件
+- 控制网络模型: `models/controlnet/` - 存放用于精确控制生成过程的 ControlNet 模型
+- 嵌入模型: `models/embeddings/` - 存放 Textual Inversion 训练的嵌入模型
+- CLIP 模型: `models/clip/` - 存放用于文本理解的 CLIP 模型
+- GLIGEN 模型: `models/gligen/` - 存放用于生成布局的 GLIGEN 模型
+- CLIP Vision 模型: `models/clip_vision/` - 存放用于图像理解的 CLIP Vision 模型
+- Diffusers 模型: `models/diffusers/` - 存放 Hugging Face Diffusers 格式的模型
+- Upscale 模型: `models/upscale_models/` - 存放用于图像放大的超分辨率模型
 
 ## 自定义节点安装
 
