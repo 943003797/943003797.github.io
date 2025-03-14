@@ -24,7 +24,7 @@ export default {
         {
             text: 'Install',
             items: [
-                { text: 'Install', link: '/Install' }
+                
             ]
         }
     ]
