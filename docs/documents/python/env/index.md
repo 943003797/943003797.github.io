@@ -4,7 +4,16 @@
 
 ```bash
 # 在项目目录中创建名为 venv 的虚拟环境
+# 使用系统默认Python版本
 python -m venv venv
+
+# 指定Python版本（需要已安装对应版本）
+python3.8 -m venv venv  # 使用Python 3.8
+python3.9 -m venv venv  # 使用Python 3.9
+python3.10 -m venv venv # 使用Python 3.10
+
+# Windows系统下也可以使用完整路径
+C:\Python38\python.exe -m venv venv  # 使用Python 3.8
 ```
 
 ## 激活虚拟环境
