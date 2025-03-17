@@ -11,9 +11,9 @@ export default [
     {
         text: 'AIGC',
         items: [
-            { text: 'LLM', link: '/aigc/llm', activeMatch: 'aigc/llm'},
-            { text: 'SD', link: '/aigc/sd', activeMatch: 'aigc/sd'},
-            { text: 'AI Agent', link: '/aigc/ai-agent', activeMatch: 'aigc/ai-agent'}
+            { text: 'LLM', link: '/llm', activeMatch: 'llm'},
+            { text: 'SD', link: '/sd', activeMatch: 'sd'},
+            { text: 'AI Agent', link: '/ai-agent', activeMatch: 'ai-agent'}
         ],
         activeMatch: 'AIGC'
     }
