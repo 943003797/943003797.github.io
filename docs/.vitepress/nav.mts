@@ -16,5 +16,12 @@ export default [
             { text: 'AI Agent', link: '/ai-agent', activeMatch: 'ai-agent'}
         ],
         activeMatch: 'AIGC'
+    },
+    {
+        text: 'Python',
+        items: [
+            { text: 'Env', link: '/pyhon/env', activeMatch: 'env'}
+        ],
+        activeMatch: 'AIGC'
     }
 ];
