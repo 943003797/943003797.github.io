@@ -1,49 +1,26 @@
-# Python 虚拟环境 (VENV) 使用指南
-
-## 为什么使用虚拟环境？
-- 🛡️ 隔离项目依赖，避免版本冲突
-- 📦 便于管理不同项目的包依赖
-- 🧹 保持系统 Python 环境的干净
-- 🔀 方便测试不同 Python 版本组合
+# Python 虚拟环境使用指南
 
 ## 创建虚拟环境
-```bash
-# 创建名为 venv 的虚拟环境
-python -m venv venv
 
-# 创建指定 Python 版本的虚拟环境（需已安装对应版本）
-py -3.11 -m venv myenv
+```bash
+# 在项目目录中创建名为 venv 的虚拟环境
+python -m venv venv
 ```
 
 ## 激活虚拟环境
-### Windows 命令提示符 (CMD)
-```bash
+
+### Windows 系统
+```powershell
+# 使用 PowerShell
+.\venv\Scripts\activate
+
+# 使用 CMD
 venv\Scripts\activate.bat
 ```
 
-### Windows PowerShell
+### Linux/macOS 系统
 ```bash
-.\venv\Scripts\Activate.ps1
-```
-❗ 如果出现执行策略错误，临时允许脚本执行：
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
-```
-
-## 虚拟环境操作
-激活后命令行会出现 `(venv)` 前缀：
-```bash
-# 安装包（示例安装 requests）
-pip install requests
-
-# 导出依赖
-pip freeze > requirements.txt
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 查看已安装包
-pip list
+source venv/bin/activate
 ```
 
 ## 退出虚拟环境
@@ -51,39 +28,30 @@ pip list
 deactivate
 ```
 
-## VS Code 集成
-1. 打开命令面板 `Ctrl+Shift+P`
-2. 输入 "Python: Select Interpreter"
-3. 选择虚拟环境中的 python.exe
-   `venv\Scripts\python.exe`
+## 环境管理
+
+### 删除虚拟环境
+```bash
+# 直接删除整个 venv 目录
+rm -rf venv  # Linux/macOS
+rd /s /q venv  # Windows CMD
+```
+
+## 依赖管理
+
+### 保存依赖
+```bash
+pip freeze > requirements.txt
+```
+
+### 安装依赖
+```bash
+pip install -r requirements.txt
+```
 
 ## 最佳实践
-1. 每个项目单独创建虚拟环境
-2. 将 `venv/` 加入 `.gitignore`
-3. 定期更新依赖版本
-4. 使用 requirements.txt 记录精确版本：
-```txt
-requests==2.31.0
-numpy>=1.20.0
-```
+1. 建议将 `venv/` 添加到 `.gitignore`
+2. 每个项目独立创建虚拟环境
+3. 使用 Python 3.3+ 自带的 venv 模块
 
-## 虚拟环境管理工具
-### 安装 virtualenvwrapper
-```bash
-pip install virtualenvwrapper-win
-```
-
-### 常用命令
-```bash
-# 创建环境
-mkvirtualenv myenv
-
-# 列出所有环境
-workon
-
-# 切换环境 
-workon myenv
-
-# 删除环境
-rmvirtualenv myenv
-```
+> 注意：Windows 使用反斜杠路径，Linux/macOS 使用正斜杠路径。激活后命令行提示符前会显示 `(venv)` 标识。
