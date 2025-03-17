@@ -24,7 +24,7 @@ C:\Python38\python.exe -m venv venv  # 使用Python 3.8
 .\venv\Scripts\activate
 
 # 使用 CMD
-venv\Scripts\activate.bat
+.\venv\Scripts\activate
 ```
 
 ### Linux/macOS 系统
