@@ -11,7 +11,6 @@ Stable Diffusion是一种基于扩散模型的开源图像生成AI，由Stabilit
 
 ## 相关工具
 
-- [ComfyUI](../documents/comfyui/index.md) - 强大的节点式界面
 - AUTOMATIC1111 WebUI - 经典的图形界面
 - Stable Diffusion.cpp - 轻量级实现
 - InvokeAI - 另一种流行的界面
