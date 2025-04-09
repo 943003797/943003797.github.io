@@ -1,3 +1,16 @@
+---
+title: AutoGen 团队配置指南
+titleTemplate: 入门指南
+description: AutoGen 多种团队配置模式详细对比
+outline: deep
+aside: true
+prev: false
+next: false
+lastUpdated: true
+---
+
+# AutoGen 团队配置指南
+
 AutoGen 提供了多种团队配置模式，以适应不同的协作任务和应用场景。以下是关于 `RoundRobinGroupChat`、`MagenticOneGroupChat`、`SelectorGroupChat` 和 `Swarm` 的详细对比：
 
 ### RoundRobinGroupChat
