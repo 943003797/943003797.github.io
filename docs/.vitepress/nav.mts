@@ -13,7 +13,7 @@ export default [
         items: [
             { text: 'LLM', link: '/llm', activeMatch: 'llm'},
             { text: 'SD', link: '/sd', activeMatch: 'sd'},
-            { text: 'AI Agent', link: '/ai-agent', activeMatch: 'ai-agent'}
+            { text: 'AI Agent', link: '/autogen', activeMatch: 'Autogen'}
         ],
         activeMatch: 'AIGC'
     },
