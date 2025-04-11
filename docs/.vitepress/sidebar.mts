@@ -39,5 +39,22 @@ export default {
                 { text: '注意事项', link: '/python/uv/#注意事项' }
             ]
         }
+    ],
+    '/documents/aigc/':[
+        {
+            text: 'AIGC文档',
+            items: [
+                { text: '首页', link: '/documents/aigc' }
+            ]
+        }
+    ],
+    '/documents/python/':[
+        {
+            text: 'Python文档',
+            items: [
+                { text: '首页', link: '/documents/python' },
+                { text: 'UV指南', link: '/documents/python/uv' }
+            ]
+        }
     ]
 };

@@ -4,7 +4,8 @@ export default [
         items: [
             { text: 'PostMan', link: '/postman', activeMatch: 'postman'},
             { text: 'English', link: '/english', activeMatch: 'english'},
-            { text: 'ComfyUI', link: '/comfyui', activeMatch: 'comfyui' }
+            { text: 'ComfyUI', link: '/comfyui', activeMatch: 'comfyui' },
+            { text: 'Documents', link: '/documents', activeMatch: 'documents'}
         ],
         activeMatch: 'Docs'
     },
@@ -13,7 +14,8 @@ export default [
         items: [
             { text: 'LLM', link: '/llm', activeMatch: 'llm'},
             { text: 'SD', link: '/sd', activeMatch: 'sd'},
-            { text: 'AI Agent', link: '/autogen', activeMatch: 'Autogen'}
+            { text: 'AI Agent', link: '/autogen', activeMatch: 'Autogen'},
+            { text: 'AIGC Docs', link: '/documents/aigc', activeMatch: 'documents/aigc'}
         ],
         activeMatch: 'AIGC'
     },
@@ -21,7 +23,8 @@ export default [
         text: 'Python',
         items: [
             { text: 'Env', link: '/python/env', activeMatch: 'python/env'},
-            { text: 'UV', link: '/python/uv', activeMatch: 'python/uv'}
+            { text: 'UV', link: '/python/uv', activeMatch: 'python/uv'},
+            { text: 'Python Docs', link: '/documents/python', activeMatch: 'documents/python'}
         ],
         activeMatch: 'Python'
     }
