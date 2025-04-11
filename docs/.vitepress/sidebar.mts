@@ -27,5 +27,17 @@ export default {
                 
             ]
         }
+    ],
+    '/python/uv/':[
+        {
+            text: 'UV指南',
+            items: [
+                { text: '安装方法', link: '/python/uv/#多平台安装方法' },
+                { text: '虚拟环境', link: '/python/uv/#虚拟环境管理' },
+                { text: '依赖管理', link: '/python/uv/#依赖管理' },
+                { text: '环境初始化', link: '/python/uv/#环境初始化' },
+                { text: '注意事项', link: '/python/uv/#注意事项' }
+            ]
+        }
     ]
 };

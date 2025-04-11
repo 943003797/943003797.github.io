@@ -20,7 +20,8 @@ export default [
     {
         text: 'Python',
         items: [
-            { text: 'Env', link: '/python/env', activeMatch: 'python/env'}
+            { text: 'Env', link: '/python/env', activeMatch: 'python/env'},
+            { text: 'UV', link: '/python/uv', activeMatch: 'python/uv'}
         ],
         activeMatch: 'Python'
     }
