@@ -42,18 +42,26 @@ export default {
     ],
     '/documents/aigc/':[
         {
-            text: 'AIGC文档',
+            text: 'AIGC',
             items: [
-                { text: '首页', link: '/documents/aigc' }
+                { text: '首页', link: '/documents/aigc/' }
             ]
         }
     ],
     '/documents/python/':[
         {
-            text: 'Python文档',
+            text: 'Python',
             items: [
-                { text: '首页', link: '/documents/python' },
-                { text: 'UV指南', link: '/documents/python/uv' }
+                { text: '首页', link: '/documents/python/' },
+                { text: 'UV指南', link: '/python/uv/' }
+            ]
+        }
+    ],
+    '/documents/other/':[
+        {
+            text: 'Other',
+            items: [
+                { text: '首页', link: '/documents/other/' }
             ]
         }
     ]

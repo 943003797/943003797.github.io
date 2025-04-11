@@ -1,31 +1,31 @@
 export default [
     {
-        text: 'Docs',
-        items: [
-            { text: 'PostMan', link: '/postman', activeMatch: 'postman'},
-            { text: 'English', link: '/english', activeMatch: 'english'},
-            { text: 'ComfyUI', link: '/comfyui', activeMatch: 'comfyui' },
-            { text: 'Documents', link: '/documents', activeMatch: 'documents'}
-        ],
-        activeMatch: 'Docs'
-    },
-    {
         text: 'AIGC',
+        link: '/documents/aigc',
+        activeMatch: '/documents/aigc',
         items: [
-            { text: 'LLM', link: '/llm', activeMatch: 'llm'},
-            { text: 'SD', link: '/sd', activeMatch: 'sd'},
-            { text: 'AI Agent', link: '/autogen', activeMatch: 'Autogen'},
-            { text: 'AIGC Docs', link: '/documents/aigc', activeMatch: 'documents/aigc'}
-        ],
-        activeMatch: 'AIGC'
+            { text: 'AutoGen', link: '/documents/aigc/autogen/' },
+            { text: 'ComfyUI', link: '/documents/aigc/comfyui/' },
+            { text: 'LLM', link: '/documents/aigc/llm/' },
+            { text: 'Stable Diffusion', link: '/documents/aigc/sd/' }
+        ]
     },
     {
         text: 'Python',
+        link: '/documents/python',
+        activeMatch: '/documents/python',
         items: [
-            { text: 'Env', link: '/python/env', activeMatch: 'python/env'},
-            { text: 'UV', link: '/python/uv', activeMatch: 'python/uv'},
-            { text: 'Python Docs', link: '/documents/python', activeMatch: 'documents/python'}
-        ],
-        activeMatch: 'Python'
+            { text: 'ENV', link: '/documents/python/env/' },
+            { text: 'UV', link: '/documents/python/uv/' }
+        ]
+    },
+    {
+        text: 'Other',
+        link: '/documents/other',
+        activeMatch: '/documents/other',
+        items: [
+            { text: 'English', link: '/documents/other/english/' },
+            { text: 'Postman', link: '/documents/other/postman/' }
+        ]
     }
 ];
