@@ -1,4 +1,4 @@
-# postgres
+# postgres {#postgres}
 ```yaml
 version: '3.8'
 
