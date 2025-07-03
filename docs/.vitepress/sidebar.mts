@@ -2,7 +2,7 @@ export default {
     '/docker/yml/':[{
         text: '常用Docker YML',
         items: [
-            { text: 'PostgreSQL', link: '/documents/docker/yml/#postgres' }
+            { text: 'PostgreSQL', link: '/docker/yml/#postgres' }
         ]
     }],
     '/postman/':[
@@ -46,28 +46,28 @@ export default {
             ]
         }
     ],
-    '/documents/aigc/':[
+    '/aigc/':[
         {
             text: 'AIGC',
             items: [
-                { text: '首页', link: '/documents/aigc/' }
+                { text: '首页', link: '/aigc/' }
             ]
         }
     ],
-    '/documents/python/':[
+    '/python/':[
         {
             text: 'Python',
             items: [
-                { text: '首页', link: '/documents/python/' },
+                { text: '首页', link: '/python/' },
                 { text: 'UV指南', link: '/python/uv/' }
             ]
         }
     ],
-    '/documents/other/':[
+    '/other/':[
         {
             text: 'Other',
             items: [
-                { text: '首页', link: '/documents/other/' }
+                { text: '首页', link: '/other/' }
             ]
         }
     ]
