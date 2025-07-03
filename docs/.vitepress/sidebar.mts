@@ -1,4 +1,10 @@
 export default {
+    '/documents/docker/yml/':[{
+        text: 'Docker配置',
+        items: [
+            { text: 'PostgreSQL', link: '/documents/docker/yml/#postgres' }
+        ]
+    }],
     '/postman/':[
         {
             text: 'Postman Guide',

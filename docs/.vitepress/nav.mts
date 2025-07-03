@@ -18,7 +18,7 @@ export default [
     {
         text: 'Docker',
         items: [
-            { text: 'YML', link: '/docker/yml/' }
+            { text: 'YML', link: '/documents/docker/yml/' }
         ]
     },
     {
