@@ -1,5 +1,5 @@
 export default {
-    '/documents/docker/yml/':[{
+    '/docker/yml/':[{
         text: 'Docker配置',
         items: [
             { text: 'PostgreSQL', link: '/documents/docker/yml/#postgres' }
