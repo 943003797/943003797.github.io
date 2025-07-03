@@ -1,7 +1,6 @@
 # postgres {#postgres}
 ```yaml
 version: '3.8'
-
 services:
   # PostgreSQL 数据库服务
   postgres:
