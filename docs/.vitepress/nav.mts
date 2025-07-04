@@ -5,7 +5,8 @@ export default [
             { text: 'AutoGen', link: '/aigc/autogen/' },
             { text: 'ComfyUI', link: '/aigc/comfyui/' },
             { text: 'LLM', link: '/aigc/llm/' },
-            { text: 'Stable Diffusion', link: '/aigc/sd/' }
+            { text: 'Stable Diffusion', link: '/aigc/sd/' },
+            { text: 'n8n', link: '/aigc/n8n/' }
         ]
     },
     {
