@@ -227,6 +227,3 @@ psql -U postgres -d n8n < n8n_backup.sql
 - [n8n 官方文档](https://docs.n8n.io/)
 - [n8n GitHub 仓库](https://github.com/n8n-io/n8n)
 - [n8n 社区论坛](https://community.n8n.io/)
-
-希望这份部署指南对你有所帮助！如有任何问题，可以在 n8n 社区论坛寻求帮助。
-        

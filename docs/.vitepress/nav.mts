@@ -6,7 +6,7 @@ export default [
             { text: 'ComfyUI', link: '/aigc/comfyui/' },
             { text: 'LLM', link: '/aigc/llm/' },
             { text: 'Stable Diffusion', link: '/aigc/sd/' },
-            { text: 'n8n', link: '/aigc/n8n/' }
+            { text: 'N8N', link: '/aigc/n8n/' }
         ]
     },
     {
