@@ -36,7 +36,7 @@ npm install n8n -g
 n8n start
 ```
 
-启动后，在浏览器中访问 http://localhost:5678 即可使用 n8n。
+启动后，在浏览器中访问 localhost:5678 即可使用 n8n。
 
 ### 3. 使用 Docker 安装（可选）
 
