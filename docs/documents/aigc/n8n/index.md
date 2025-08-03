@@ -34,7 +34,7 @@ npm_config_dns=8.8.8.8  # DNS 服务器地址
 # 可选：启用基础认证（推荐生产环境开启）
 # N8N_BASIC_AUTH_ACTIVE=true
 # N8N_BASIC_AUTH_USER=admin
-# N8N_BASIC_AUTH_PASSWORD=YourStrongPassword123
+# N8N_BASIC_AUTH_PASSWORD=YourStrongPassword
 JWT_EXPIRATION=7d # JWT 过期时间
 # 可选：日志级别（debug | info | warn | error）
 N8N_LOG_LEVEL=info # 日志级别
