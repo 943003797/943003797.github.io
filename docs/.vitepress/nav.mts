@@ -3,7 +3,8 @@ export default [
         text: 'LLM',
         items: [
             { text: '机器学习与深度学习基础', link: '/llm/机器学习与深度学习基础/' },
-            { text: 'Transformer', link: '/llm/transformer/' }
+            { text: 'Transformer', link: '/llm/transformer/' },
+            { text: 'Pormpt', link: '/llm/pormpt/' },
         ]
     },
     {
