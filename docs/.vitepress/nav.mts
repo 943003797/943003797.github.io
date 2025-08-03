@@ -1,10 +1,16 @@
 export default [
     {
+        text: 'LLM',
+        items: [
+            { text: '机器学习与深度学习基础', link: '/llm/机器学习与深度学习基础/' },
+            { text: 'Transformer', link: '/llm/transformer/' }
+        ]
+    },
+    {
         text: 'AIGC',
         items: [
             { text: 'AutoGen', link: '/aigc/autogen/' },
             { text: 'ComfyUI', link: '/aigc/comfyui/' },
-            { text: 'LLM', link: '/aigc/llm/' },
             { text: 'Stable Diffusion', link: '/aigc/sd/' },
             { text: 'N8N', link: '/aigc/n8n/' },
             { text: 'MCP', link: '/aigc/mcp/' }
