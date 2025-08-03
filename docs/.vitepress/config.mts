@@ -16,7 +16,7 @@ export default defineConfig({
     nav: nav,
     sidebar: sidebar,
     outline: {
-      level: [1,3], // 显示h2-h4标题
+      level: [2,3], // 显示h2-h4标题
       label: '目录' // 自定义标题
     },
     footer: {
