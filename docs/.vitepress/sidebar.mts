@@ -46,14 +46,6 @@ export default {
             ]
         }
     ],
-    '/aigc/':[
-        {
-            text: 'AIGC',
-            items: [
-                { text: '首页', link: '/aigc/' }
-            ]
-        }
-    ],
     '/python/':[
         {
             text: 'Python',
