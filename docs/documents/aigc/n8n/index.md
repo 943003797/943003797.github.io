@@ -1,11 +1,13 @@
-# n8n
+## 简介
 
 n8n 是一个强大的工作流自动化平台，允许您连接各种服务和应用程序，创建自动化工作流程，无需编写代码。本指南将帮助您在本地环境中部署 n8n。
 
-## 前提
+## 开始
+
+### 前提
 npm 是在本地使用 n8n 的快速方法。必须安装Node.js。n8n 需要 20.19 到 24.x 之间的Node.js版本（含）。
 
-## 使用 npm 安装
+### 使用 npm 安装
 
 1. 安装 n8n：
 
@@ -19,7 +21,7 @@ npm install n8n
 n8n start
 ```
 
-## .env配置
+### .env配置
 
 ```bash
 # n8n 配置文件
@@ -43,8 +45,8 @@ N8N_SECURE_COOKIE=false # 是否使用安全 Cookie
 N8N_DEFAULT_LOCALE=zh-CN # 默认语言, 配合汉化插件: https://github.com/other-blowsnow/n8n-i18n-chinese
 ```
 
-##  汉化
-##### 插件地址:https://github.com/other-blowsnow/n8n-i18n-chinese
+###  汉化
+插件地址:https://github.com/other-blowsnow/n8n-i18n-chinese
 1. 选择与当前n8n版本一致的翻译版本下载
 2. 解压并覆盖n8n/node_modules/n8n-editor-ui/dist
 3. 在.env中配置中文: N8N_DEFAULT_LOCALE=zh-CN

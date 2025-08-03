@@ -15,7 +15,10 @@ export default defineConfig({
     logo: '/icon.svg',
     nav: nav,
     sidebar: sidebar,
-
+    outline: {
+      level: [1,3], // 显示h2-h4标题
+      label: '目录' // 自定义标题
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present 943003797'
