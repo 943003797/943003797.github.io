@@ -21,7 +21,8 @@ export default [
         text: 'Python',
         items: [
             { text: 'ENV', link: '/python/env/' },
-            { text: 'UV', link: '/python/uv/' }
+            { text: 'UV', link: '/python/uv/' },
+            { text: 'Poetry', link: '/python/poetry/' }
         ]
     },
     {
