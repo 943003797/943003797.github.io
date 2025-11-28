@@ -220,7 +220,7 @@ source {path_to_venv}/bin/activate
 poetry run python script.py
 
 # 退出虚拟环境
-exit
+deactivate
 ```
 
 ### 环境管理命令
