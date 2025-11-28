@@ -233,7 +233,7 @@ poetry env info
 poetry env list
 
 # 删除虚拟环境
-poetry env remove python
+poetry env remove --all
 ```
 
 ## 依赖管理
