@@ -34,6 +34,7 @@ export default [
     {
         text: 'Other',
         items: [
+            { text: 'Git', link: '/other/git/' },
             { text: 'English', link: '/other/english/' },
             { text: 'Postman', link: '/other/postman/' }
         ]
