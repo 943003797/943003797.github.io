@@ -32,6 +32,12 @@ export default [
         ]
     },
     {
+        text: 'Agent',
+        items: [
+            { text: 'Skill', link: '/agent/skill/' }
+        ]
+    },
+    {
         text: 'Other',
         items: [
             { text: 'Git', link: '/other/git/' },
