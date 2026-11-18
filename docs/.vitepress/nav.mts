@@ -35,7 +35,14 @@ export default [
         text: 'Agent',
         items: [
             { text: 'Skill', link: '/agent/skill/' },
-            { text: 'LangChain 和 LangGraph', link: '/agent/langchain-langgraph/' }
+            {
+                text: 'Lang全家桶',
+                items: [
+                    { text: '整体关系', link: '/agent/langchain-langgraph/' },
+                    { text: 'LangChain', link: '/agent/langchain-langgraph/langchain/' },
+                    { text: 'LangGraph', link: '/agent/langchain-langgraph/langgraph/' }
+                ]
+            }
         ]
     },
     {
