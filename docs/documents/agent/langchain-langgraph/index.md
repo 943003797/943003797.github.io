@@ -4,10 +4,6 @@ description: 记录 LangChain 与 LangGraph 的核心概念和实践
 outline: deep
 ---
 
-# LangChain 和 LangGraph 学习笔记
-
-持续记录模型调用、工具调用、Agent 和流程编排的学习内容。
-
 ## 整体关系
 
 | 名称 | 主要职责 | 可以这样理解 |
