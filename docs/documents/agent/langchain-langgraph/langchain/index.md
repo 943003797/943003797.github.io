@@ -20,9 +20,9 @@ model = init_chat_model("deepseek:deepseek-chat")
 
 | 方法 | 效果 | 返回方式 |
 |---|---|---|
-| `invoke(input)` | 同步处理一个输入，等待完整回答 | 一条完整 AI 消息 |
-| `stream(input)` | 同步流式生成，适合实时显示 | 多个消息片段 |
-| `batch(inputs)` | 批量处理多个独立输入 | 与输入顺序对应的结果列表 |
+| `invoke(input)` | 同步处理，完整回答 | 一条完整 AI 消息 |
+| `stream(input)` | 同步流式生成 | 多个消息片段 |
+| `batch(inputs)` | 同步批量处理 | 与输入顺序对应的结果列表 |
 | `ainvoke(input)` | 异步处理一个输入 | `await` 后得到完整回答 |
 | `astream(input)` | 异步流式生成 | `async for` 逐个读取消息片段 |
 | `abatch(inputs)` | 异步批量处理多个输入 | `await` 后得到结果列表 |
